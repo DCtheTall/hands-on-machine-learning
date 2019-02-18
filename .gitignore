@@ -1,6 +1,6 @@
 *.csv
 *.tgz
 */env/
-.DS_Store
+*.DS_Store
 .vscode
 
