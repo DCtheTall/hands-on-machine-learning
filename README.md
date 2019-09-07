@@ -35,7 +35,7 @@ notebooks that are written to run in
 - Scikit-Learn's `Pipeline` object.
 - Computing the root mean squared error (RMSE) of a regression model.
 - Cross validation.
-- Grid searching hyperparameters with `GridSearchCV`.
+- Grid searching hyperparameters with Scikit-Learn's `GridSearchCV`.
 - Evaluating models with a test set.
 - Training a Support Vector Machine (SVM) on the Housing dataset.
 - Fine tuning a `RandomForestRegressor` using `RandomizedSearchCV`.
@@ -57,6 +57,56 @@ notebooks that are written to run in
 model was wrong.
 - Multilabel classification.
 - Multioutput classification.
+
+#### `SpamClassifier.ipynb`
+- Downloading the email dataset.
+- Processing email data in Python.
+- Counting the most common words and symbols in text data.
+- Viewing the headers in email data with Python.
+- Parsing HTML into plaintext with Python.
+- Transforming words into their stems with Scikit-Learn's `PorterStemmer`
+class.
+- Extracting URLs from text with Python.
+- Defining a transformer class using Scikit-Learn which extracts the word
+counts from email data.
+- Defining a transformer class which transforms word counts into a vector
+which can be used as an input to a machine learning model.
+- Using `LogisticRegression` to classify emails as spam or ham.
+- Evaluating the model's performance with cross-validation.
+
+#### `Titanic.ipynb`
+
+- Downloading the Titanic dataset from [Kaggle](https://www.kaggle.com/).
+- Defining a `Pipeline` to transform the data from Kaggle into input for a
+machine learning model.
+- Train an `SGDClassifier` to determine if a passenger survived or died on
+the Titanic.
+- Evaluate the `SGDClassifier` with cross-validation.
+- Do a grid search with `GridSearchCV` to fine tune the hyperparameters of
+a `RandomForestClassifier`.
+
+### Chapter 4: Training Models
+
+#### `TrainingModels.ipynb`
+- Linear Regression.
+- Mean squared error (MSE).
+- The normal equation and its computational complexity.
+- Batch Gradient Descent.
+- Learning rate.
+- Stochastic Gradient Descent.
+- Mini-Batch Gradient Descent.
+- Polynomial regression with Scikit-Learn.
+- Learning curves.
+- Regularization.
+- Ridge Regression with Scikit-Learn.
+- Lasso Regression with Scikit-Learn.
+- Elastic Net with Scikit-Learn.
+- Early stopping.
+- Logistic Regression.
+- Decision boundaries.
+- Softmax Regression with Scikit-Learn on the Iris dataset.
+- Implementing Batch Gradient Descent and Softmax Regression without using
+Scikit-Learn.
 
 ## Academic Papers Cited
 
