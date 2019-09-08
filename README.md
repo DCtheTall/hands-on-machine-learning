@@ -114,7 +114,6 @@ a `RandomForestClassifier`.
 - Implementing Batch Gradient Descent and Softmax Regression without using
 Scikit-Learn.
 
-
 ### Chapter 5: Support Vector Machines
 - Linear Support Vector Machine (SVM) classification.
 - Hard margin classification.
@@ -132,6 +131,7 @@ Scikit-Learn.
 - The SVM decision function.
 - The training objective for an SVM for hard and soft margin classification.
 - Quadratic programming.
+- Solving the dual problem of a quadratic programming problem.
 
 ## Academic Papers Cited
 
