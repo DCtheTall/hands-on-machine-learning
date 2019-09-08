@@ -5,9 +5,15 @@
 
 This repository is my notes and exercise solutions while I was reading
 _Hands On Machine Learning with Scikit-Learn and TensorFlow_ by Aurélian Géron.
+
 All of the code and notes are written in [Jupyter](https://jupyter.org/)
 notebooks that are written to run in
-[Google Colab](https://colab.research.google.com).
+[Google Colab](https://colab.research.google.com). This allows me to not
+need to set up a virtual environment and install machine learning libraries
+each time. Colab has most of the modules this book uses installed by default.
+There is some Colab specific code in here that will not work on a
+run-of-the-mill Jupyter Notebook kernel. There are aslo differences in how
+mathematical formuals are rendered in Colab than in Github's `ipynb` renderer.
 
 ## Table of Contents
 
@@ -107,6 +113,25 @@ a `RandomForestClassifier`.
 - Softmax Regression with Scikit-Learn on the Iris dataset.
 - Implementing Batch Gradient Descent and Softmax Regression without using
 Scikit-Learn.
+
+
+### Chapter 5: Support Vector Machines
+- Linear Support Vector Machine (SVM) classification.
+- Hard margin classification.
+- Soft margin classification.
+- Scikit-Learn's `LinearSVM` classifier.
+- Nonlinear SVMs classification.
+- Using polynomial kernels for SVM classification.
+- Adding features using a similarity function and landmark instances.
+- Gaussian Radial Bias Function (RBF).
+- Using Gaussian RBF kernels for SVM classification.
+- Computational complexity of SVMs.
+- SVM Regression.
+- Scikit-Learn's `LinearSVR` class.
+- Nonlinear SVM regression using Scikit-Learn's `SVR` class.
+- The SVM decision function.
+- The training objective for an SVM for hard and soft margin classification.
+- Quadratic programming.
 
 ## Academic Papers Cited
 
