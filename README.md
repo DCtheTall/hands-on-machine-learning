@@ -50,7 +50,7 @@ mathematical formuals are rendered in Colab than in Github's `ipynb` renderer.
 ### Chapter 3: Classification
 
 #### `MNIST.ipynb`
-- The MNIST dataset.
+- The MNIST dataset, a dataset of images of handwritten digits.
 - Training a binary classifier.
 - Measuring accuracy of a classifier model.
 - Confusion matrix.
@@ -132,7 +132,24 @@ Scikit-Learn.
 - The training objective for an SVM for hard and soft margin classification.
 - Quadratic programming.
 - Solving the dual problem of a quadratic programming problem.
+- Kernelized SVMs and applying the kernel trick.
+- Computing the decision function for a nonlinear SVM using the kernel trick.
+- Online SVMs.
+- Using the hinge loss function for Gradient Descent.
+- Using a QP solver to train an SVM by solving the dual problem.
+- Comparing training a `LinearSVC` and a `SGDClassifier` class to get the same
+model.
+- Training SVM classifier to classify handwritten digits.
+- Training an SVM regression model to predict housing prices with the
+California housing dataset.
 
-## Academic Papers Cited
+## Papers Cited
+
+### Support Vector Machines
+
+- [_Fast Kernel Classifiers with Online and Active Learning_, Antoine Bordes, Seyda Ertekin, Jason Weston, Leon Bottou](http://www.jmlr.org/papers/volume6/bordes05a/bordes05a.pdf)
+- [_Incremental and Decremental Support Vector Machine Learning_, Gert Cauwenberghs](https://isn.ucsd.edu/papers/nips00_inc.pdf)
+- [_A Dual Coordinate Descent Method for Large-scale Linear SVM_, Cho-Jui Hsieh, Kai-Wei Chang, Chih-Jen Lin ](A Dual Coordinate Descent Method for Large-scale Linear SVM)
+- [_Sequential Minimal Optimization: A Fast Algorithm for Training Support Vector Machines_, John Platt](https://www.microsoft.com/en-us/research/publication/sequential-minimal-optimization-a-fast-algorithm-for-training-support-vector-machines/?from=http://research.microsoft.com/pubs/69644/tr-98-14.pdf)
 
 ## License
