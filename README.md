@@ -157,6 +157,10 @@ Decision Tree.
 - Using entropy instead of Gini impurity to train a Decision Tree.
 - Parametric versus nonparametric machine learning models.
 - Training a `DecisionTreeRegressor` with Scikit-Learn.
+- The cost function for training a Decision Tree for regression.
+- Computing the approximate depth of a Decision Tree.
+- Train a `DecisionTreeClassifier` to classify instances of the moons dataset.
+- Implementing a Random Forest using Scikit-Learn's `DecisionTreeClassifier`.
 
 ## Papers Cited
 
