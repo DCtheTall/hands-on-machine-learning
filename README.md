@@ -143,6 +143,21 @@ model.
 - Training an SVM regression model to predict housing prices with the
 California housing dataset.
 
+### Chapter 6: Decision Trees
+
+- Training a `DecisionTreeClassifier` with Scikit-Learn.
+- Visualizing a Decision Tree's decision making algorithm.
+- Making predictions with a Decision Tree.
+- Gini impurity.
+- White-box versus black-box models.
+- Estimating class probabilities with a `DecisionTreeClassifier`.
+- The Classification And Regression Tree (CART) algorithm.
+- The computational complexity of training and making predictions with a
+Decision Tree.
+- Using entropy instead of Gini impurity to train a Decision Tree.
+- Parametric versus nonparametric machine learning models.
+- Training a `DecisionTreeRegressor` with Scikit-Learn.
+
 ## Papers Cited
 
 ### Support Vector Machines
