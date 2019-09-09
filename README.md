@@ -115,6 +115,8 @@ a `RandomForestClassifier`.
 Scikit-Learn.
 
 ### Chapter 5: Support Vector Machines
+
+#### `SupportVectorMachines.ipynb`
 - Linear Support Vector Machine (SVM) classification.
 - Hard margin classification.
 - Soft margin classification.
@@ -145,6 +147,8 @@ California housing dataset.
 
 ### Chapter 6: Decision Trees
 
+#### `DecisionTrees.ipynb`
+
 - Training a `DecisionTreeClassifier` with Scikit-Learn.
 - Visualizing a Decision Tree's decision making algorithm.
 - Making predictions with a Decision Tree.
@@ -162,7 +166,43 @@ Decision Tree.
 - Train a `DecisionTreeClassifier` to classify instances of the moons dataset.
 - Implementing a Random Forest using Scikit-Learn's `DecisionTreeClassifier`.
 
+### Chapter 7: Ensemble Learning
+
+#### `EnsembleLearning.ipynb`
+
+- Voting classifiers.
+- Hard voting classifiers.
+- Strong leaner versus weak learners.
+- Scikit-Learn's `VotingClassifier` class.
+- Bagging and pasting.
+- Scikit-Learn's `BaggingClassifier`.
+- Out-of-bag evaluation.
+- Random Patches and Random Subspaces.
+- Scikit-Learn's `RandomForestClassifier`.
+- Extremely Randomized Trees (Extra-Trees).
+- Feature importance.
+- Boosting (in the context of Emsemble Learning).
+- AdaBoost.
+- Using Scikit-Learn's `AdaBoostClassifier`.
+- Gradient Boosting, Gradient Tree Boosting, and Gradient Boosted Regression
+Trees (GBRTs).
+- Training a GRBT with and without Scikit-Learn's `GradientBoostingRegressor`
+class.
+- Stacked generalization (stacking).
+- Training an voting ensemble model on the MNIST dataset using Scikit-Learn.
+- Training an ensemble which uses stacking and comparing the results to the
+voting ensemble.
+
 ## Papers Cited
+
+### Ensemble Learning
+
+- [_Arcing The Edge_, Leo Breiman](http://statistics.berkeley.edu/sites/default/files/tech-reports/486.pdf)
+- [_Bagging Predictors_, Leo Breiman](http://statistics.berkeley.edu/sites/default/files/tech-reports/421.pdf)
+- [_Pasting Small Votes for Classification in Large Databases and On-Line_, Leo Breiman](https://link.springer.com/article/10.1023/A:1007563306331)
+- [_A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting_, Yoav Freund, Robert E. Schapire](https://www.sciencedirect.com/science/article/pii/S002200009791504X)
+- [_Extremely randomized trees_, Pierre Geurts, Damien Ernst, Louis Wehenkel](https://orbi.uliege.be/bitstream/2268/9357/1/geurts-mlj-advance.pdf)
+- [_Multi-class AdaBoost_, Ji Zhu, Saharon Rosset, Hui Zou, Trevor Hastie](https://web.stanford.edu/~hastie/Papers/samme.pdf)
 
 ### Support Vector Machines
 
