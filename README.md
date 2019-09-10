@@ -193,7 +193,35 @@ class.
 - Training an ensemble which uses stacking and comparing the results to the
 voting ensemble.
 
+### Chapter 8: Dimensionality Reduction
+
+- The curse of dimensionality.
+- Projection.
+- Manifold learning and the manifold hypothesis.
+- Principal Component Analysis (PCA).
+- Singular Value Decomposition (SVD).
+- `PCA` with Scikit-Learn.
+- Explained variance ratio.
+- Reconstructing the original data after PCA and reconstruction error.
+- Incremental PCA (IPCA).
+- `IncrementalPCA` with Scikit-Learn.
+- Randomized PCA.
+- Kernel PCA (kPCA).
+- `KernelPCA` with Scikit-Learn.
+- Locally Linear Embedding (LLE).
+- `LocallyLinearEmbedding` with Scikit-Learn.
+- Multidimensional Scaling (MDS).
+- Isomap.
+- t-Distributed Stochastic Neighbor Embedding (t-SNE).
+- Linear Discriminant Analysis (LDA).
+- Training a Random Forest with the MNIST dataset and observing how PCA helps
+reduce the time it takes to train the model.
+- Reducing the dimension of the MNIST dataset and plotting the result.
+
 ## Papers Cited
+
+### Dimensionality Reduction
+- [_Kernel Principal Component Analysis_, Bernhard Scholkopf, Alexander Smola , Klaus-Robert Muller2](http://pca.narod.ru/scholkopf_kernel.pdf)
 
 ### Ensemble Learning
 
