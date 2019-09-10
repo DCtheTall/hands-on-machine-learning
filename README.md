@@ -195,6 +195,8 @@ voting ensemble.
 
 ### Chapter 8: Dimensionality Reduction
 
+#### `DimensionalityReduction.ipynb`
+
 - The curse of dimensionality.
 - Projection.
 - Manifold learning and the manifold hypothesis.
@@ -240,7 +242,34 @@ using a `GradientDescentOptimizer`.
 - Sharing variables.
 - Implementing Logistic Regression using TensorFlow.
 
+### Chapter 10: Introduction to Artificial Neural Networks
+
+#### `ArtificialNeuralNetworks.ipynb`
+
+- The invention of artificial neural networks (ANNs).
+- Biological neurons.
+- Performing computations with artificial neurons.
+- Perceptrons and Linear threshold units (LTUs).
+- Hebb's rule (Hebbian learning).
+- TensorFlow's `Perceptron` class.
+- Multilayer perceptrons (MLPs) and deep neural networks (DNNs).
+- Backpropagation.
+- Softmax function.
+- Feedforward neural networks (FNNs).
+- Training a DNN with TensorFlow's high-level API.
+- Training a DNN with plain TensorFlow.
+- Fine tuning neural network parameters.
+- Training a DNN for classifying the MNIST dataset.
+
 ## Papers Cited
+
+### Artificial Neural Networks
+
+- [_Random Search for Hyper-Parameter Optimization_, James Bergstra, Yoshua Bengio](http://www.jmlr.org/papers/volume13/bergstra12a/bergstra12a.pdf)
+
+- [_A logical calculus of the ideas immanent in nervous activity_, Warren S. McCullochWalter Pitts](https://link.springer.com/article/10.1007/BF02478259)
+
+- [_Learning Internal Representations by Error Propagation_, David E. Rumelhart, Geoffrey E. Hinton, Ronald J. Williams](https://apps.dtic.mil/docs/citations/ADA164453)
 
 ### Dimensionality Reduction
 - [_Kernel Principal Component Analysis_, Bernhard Scholkopf, Alexander Smola , Klaus-Robert Muller2](http://pca.narod.ru/scholkopf_kernel.pdf)
