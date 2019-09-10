@@ -218,6 +218,28 @@ voting ensemble.
 reduce the time it takes to train the model.
 - Reducing the dimension of the MNIST dataset and plotting the result.
 
+### Chapter 9: Up and Running with Tensorflow
+
+#### `UpAndRunningWithTensorflow.ipynb`
+
+- Creating a TensorFlow graph.
+- Running a computation defined with a TensorFlow graph.
+- Managing TensorFlow graph.
+- Lifecycle of a node value.
+- Linear Regression with TensorFlow.
+- Manually computing the gradient versus using the autodiff algorithm versus
+using a `GradientDescentOptimizer`.
+- Gradient Descent using a `MomentumOptimizer`.
+- Feeding data to a training algorithm using `tf.placeholder()`.
+- Implementing Mini-Batch Gradient Descent with TensorFlow.
+- Saving and restoring a model.
+- Visualizing the graph and training curves using TensorBoard in Google Colab.
+- Name scopes.
+- Rectified linear units (ReLU).
+- Creating a neural network by iteratively applying ReLU operations.
+- Sharing variables.
+- Implementing Logistic Regression using TensorFlow.
+
 ## Papers Cited
 
 ### Dimensionality Reduction
