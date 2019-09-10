@@ -302,6 +302,42 @@ using a `GradientDescentOptimizer`.
 - Pretraining with an auxilary task before training a DNN to classify the
 MNIST dataset.
 
+### Chapter 12: Distributing TensorFlow Across Devices and Servers
+
+#### `DistributingTensorflow.ipynb`
+
+- Nvidia's Compute Unified Device Architecture library (CUDA).
+- Managing the GPU RAM.
+- Placing operations on devices.
+- Dynamic placer algorithm versus a simple lacer.
+- Logging which device each node is pinned to.
+- Parallel execution in TensorFlow.
+- Distributing devices across multipe servers.
+- TensorFlow cluster specifications.
+- Master and worker services.
+- Sharing variables across servers.
+- Resource containers.
+- TensorFlow queues.
+- Asychronous communication using queues.
+- TensorFlow's `FIFOQueue`.
+- TensorFlow's `RandomShuffleQueue`.
+- TensorFlow's `PaddingFIFOQueue`.
+- Multithreaded readers using TensorFlow's `Coordinator` and `QueueRunner`.
+- TensorFlow's `string_input_producer()` function.
+- TensorFlow's `input_producer()`, `range_input_producer()`, and
+`slice_input_producer()` functions.
+- TensorFlow's `shuffle_batch()` function.
+- In-graph versus between-graph replication.
+- Model parallelism.
+- Data parallelism.
+- Synchronous versus asynchronous updates.
+- Bandwidth saturation.
+- Training multiple TensorFlow DNNs in parallel.
+
+#### `ParallelNeuralNetworks.ipynb`
+- Training a distributed DNN with TensorFlow.
+- Comparing the performance of synchronous versus asynchronous updates.
+
 ## Papers Cited
 
 ### Artificial Neural Networks
@@ -312,7 +348,14 @@ MNIST dataset.
 
 ### Dimensionality Reduction
 
-- [_Kernel Principal Component Analysis_, Bernhard Schölkopf, Alexander Smola , Klaus-Robert Müller](http://pca.narod.ru/scholkopf_kernel.pdf)
+- [_Kernel Principal Component Analysis_, Bernhard Schölkopf, Alexander Smola , Klaus-Robert Müller](http://pca.narod.ru/scholkopf_kernel.pdf)
+
+### Distributing TensorFlow
+
+### TensorFlow
+
+- [_TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems_, Martin Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo, Zhifeng Chen, Craig Citro, Greg S. Corrado, Andy Davis, Jeffrey Dean, Matthieu Devin, Sanjay Ghemawat, Ian Goodfellow, Andrew Harp, Geoffrey Irving, Michael Isard, Yangqing Jia, Rafal Jozefowicz, Lukasz Kaiser, Manjunath Kudlur, Josh Levenberg, Dan Mane, Rajat Monga, Sherry Moore, Derek Murray, ´ Chris Olah, Mike Schuster, Jonathon Shlens, Benoit Steiner, Ilya Sutskever, Kunal Talwar, Paul Tucker, Vincent Vanhoucke, Vijay Vasudevan, Fernanda Viegas, Oriol Vinyals, ´ Pete Warden, Martin Wattenberg, Martin Wicke, Yuan Yu, Xiaoqiang Zheng](http://download.tensorflow.org/paper/whitepaper2015.pdf)
+- [_Revisting Distributed Synchronous SGD_, Jianmin Chen, Rajat Monga, Samy Bengio, Rafal Jozefowicz](https://arxiv.org/pdf/1604.00981v2.pdf)
 
 ### Ensemble Learning
 
