@@ -312,7 +312,7 @@ MNIST dataset.
 
 ### Dimensionality Reduction
 
-- [_Kernel Principal Component Analysis_, Bernhard Scholkopf, Alexander Smola , Klaus-Robert Muller2](http://pca.narod.ru/scholkopf_kernel.pdf)
+- [_Kernel Principal Component Analysis_, Bernhard Schölkopf, Alexander Smola , Klaus-Robert Müller](http://pca.narod.ru/scholkopf_kernel.pdf)
 
 ### Ensemble Learning
 
