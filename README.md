@@ -261,17 +261,57 @@ using a `GradientDescentOptimizer`.
 - Fine tuning neural network parameters.
 - Training a DNN for classifying the MNIST dataset.
 
+### Chapter 11: Training Deep Neural Nets
+
+#### `TrainingDeepNeuralNets.ipynb`
+
+- The vanishing/exploding gradients problem.
+- Xavier and He initialization.
+- Leaky ReLU activation function.
+- Exponential linear unit (ELU) activation function.
+- Batch Normalization.
+- Implementing Batch Normalization with TensorFlow.
+- Gradient clipping.
+- Reusing pretrained models.
+- Reusing pretrained TensorFlow models.
+- Reusing models from other frameworks when using TensorFlow.
+- Freezing lower layers with TensorFlow.
+- Caching frozen layers.
+- Model zoos.
+- Unsupervised pretraining.
+- Pretraining with an auxilary task.
+- Momentum optimizers.
+- TensorFlow's `MomentumOptimizer`.
+- Nesterov Accelerated Gradient.
+- AdaGrad algorithm.
+- TensorFlow's `AdagradOptimizer`.
+- RMSProp algorithm.
+- TensorFlow's `RMSPropOptimizer`.
+- Adaptive moment estimation (Adam).
+- TensorFlow's `AdamOptimizer`.
+- Learning rate scheduling.
+- Using regularization while training a neural network.
+- Implementing regularization with TensorFlow.
+- Dropout and implementing models that use dropout with TensorFlow.
+- Follow the Regularized Leader (FTRL).
+- FTRL-Proximal and the `FTRLOptimizer` class.
+- Max-norm regularization and implementing it in TensorFlow.
+- Data augmentation.
+- Training a DNN to classify the MNIST dataset.
+- Transfer learning with the MNIST dataset.
+- Pretraining with an auxilary task before training a DNN to classify the
+MNIST dataset.
+
 ## Papers Cited
 
 ### Artificial Neural Networks
 
 - [_Random Search for Hyper-Parameter Optimization_, James Bergstra, Yoshua Bengio](http://www.jmlr.org/papers/volume13/bergstra12a/bergstra12a.pdf)
-
 - [_A logical calculus of the ideas immanent in nervous activity_, Warren S. McCullochWalter Pitts](https://link.springer.com/article/10.1007/BF02478259)
-
 - [_Learning Internal Representations by Error Propagation_, David E. Rumelhart, Geoffrey E. Hinton, Ronald J. Williams](https://apps.dtic.mil/docs/citations/ADA164453)
 
 ### Dimensionality Reduction
+
 - [_Kernel Principal Component Analysis_, Bernhard Scholkopf, Alexander Smola , Klaus-Robert Muller2](http://pca.narod.ru/scholkopf_kernel.pdf)
 
 ### Ensemble Learning
@@ -289,5 +329,20 @@ using a `GradientDescentOptimizer`.
 - [_Incremental and Decremental Support Vector Machine Learning_, Gert Cauwenberghs](https://isn.ucsd.edu/papers/nips00_inc.pdf)
 - [_A Dual Coordinate Descent Method for Large-scale Linear SVM_, Cho-Jui Hsieh, Kai-Wei Chang, Chih-Jen Lin ](https://www.csie.ntu.edu.tw/~cjlin/papers/cddual.pdf)
 - [_Sequential Minimal Optimization: A Fast Algorithm for Training Support Vector Machines_, John Platt](https://www.microsoft.com/en-us/research/publication/sequential-minimal-optimization-a-fast-algorithm-for-training-support-vector-machines/?from=http://research.microsoft.com/pubs/69644/tr-98-14.pdf)
+
+### Training Neural Networks
+
+- [Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)_, Djork-Arne Clevert, Thomas Unterthiner, Sepp Hochreiter](https://arxiv.org/pdf/1511.07289v5.pdf)
+- [_Adaptive Subgradient Methods for Online Learning and Stochastic Optimization_, John Duchi, Elad Hazan, Yoram Singer](http://www.jmlr.org/papers/volume12/duchi11a/duchi11a.pdf)
+- [_Understanding the difficulty of training deep feedforward neural networks_, Xavier Glorot, Yoshua Bengio](http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf)
+- [_Improving neural networks by preventing co-adaptation of feature detectors_, G. E. Hinton, N. Srivastava, A. Krizhevsky, I. Sutskever and R. R. Salakhutdinov](https://arxiv.org/pdf/1207.0580.pdf)
+- [_Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift_, Sergey Ioffe, Christian Szegedy](https://arxiv.org/pdf/1502.03167v3.pdf)
+- [_Adam: A Method for Stochastic Optimization_, Diederik P. Kingma, Jimmy Lei Ba](https://arxiv.org/pdf/1412.6980v8.pdf)
+- [_Ad Click Prediction: a View from the Trenches_, H. Brendan McMahan, Gary Holt, D. Sculley, Michael Young, Dietmar Ebner, Julian Grady, Lan Nie, Todd Phillips, Eugene Davydov, Daniel Golovin, Sharat Chikkerur, Dan Liu, Martin Wattenberg, Arnar Mar Hrafnkelsson, Tom Boulos, Jeremy Kubica](https://www.eecs.tufts.edu/~dsculley/papers/ad-click-prediction.pdf)
+- [_A method for solving the convex programming problem with convergence rate O (1/k<sup>2</sup>)_, Yurii E. Nesterov](https://scholar.google.com/citations?view_op=view_citation&citation_for_view=DJ8Ep8YAAAAJ:hkOj_22Ku90C)
+- [_Primal-dual subgradient methods for convex problems_, Yurii E. Nesterov](https://scholar.google.fr/citations?view_op=view_citation&citation_for_view=DJ8Ep8YAAAAJ:Tyk-4Ss8FVUC)
+- [_On the difficulty of training recurrent neural networks_, Razvan Pascanu, Tomas Mikolov, Yoshua Bengio](http://proceedings.mlr.press/v28/pascanu13.pdf)
+- [_Some methods of speeding up the convergence of iteration methods_, Boris T. Polyak](https://www.researchgate.net/publication/243648538_Some_methods_of_speeding_up_the_convergence_of_iteration_methods)
+- [_Dropout: A Simple Way to Prevent Neural Networks from Overfitting_, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, Ruslan Salakhutdinov](http://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf)
 
 ## License
