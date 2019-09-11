@@ -1,7 +1,7 @@
 # Hands On Machine Learning
 ## with Scikit-Learn and TensorFlow
 
-<img width="200" src="./handson-cover.jpeg">
+<img width="200" src="./handson-cover.jpeg" style="border:1px solid #666;">
 
 This repository is my notes and exercise solutions while I was reading
 _Hands On Machine Learning with Scikit-Learn and TensorFlow_ by Aurélian Géron.
@@ -338,6 +338,29 @@ MNIST dataset.
 - Training a distributed DNN with TensorFlow.
 - Comparing the performance of synchronous versus asynchronous updates.
 
+### Chapter 13: Convolutional Neural Networks
+
+#### `ConvolutionalNeuralNetworks.ipynb`
+
+- The visual cortex in animals and local receptive fields.
+- Convolutional neural networks (CNNs).
+- Convolutional layers.
+- Zero padding.
+- Stride.
+- Filters and feature maps.
+- Stacking feature maps.
+- Convolutional layers in TensorFlow.
+- VALID versus SAME padding.
+- Memory requirements of a CNN.
+- Pooling layers.
+- ILSVRC ImageNet challenge and other visual challenges CNNs can solve.
+- LeNet-5.
+- AlexNet.
+- GoogLeNet.
+- Residual Network (ResNet).
+- VGGNet and Inception-v4.
+- Convolution operations with TensorFlow.
+
 ## Papers Cited
 
 ### Artificial Neural Networks
@@ -346,13 +369,24 @@ MNIST dataset.
 - [_A logical calculus of the ideas immanent in nervous activity_, Warren S. McCullochWalter Pitts](https://link.springer.com/article/10.1007/BF02478259)
 - [_Learning Internal Representations by Error Propagation_, David E. Rumelhart, Geoffrey E. Hinton, Ronald J. Williams](https://apps.dtic.mil/docs/citations/ADA164453)
 
+### Convolutional Neural Networks
+
+- [_Deep Residual Learning for Image Recognition_, Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun](https://arxiv.org/pdf/1512.03385v1.pdf)
+- [_Receptive Fields of Single Neurones in the Cat's Striate Cortex_, D. H. Hubel, T. N. Wiesel](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1363130/pdf/jphysiol01298-0128.pdf)
+- [_Single Unit Activity in Striate Cortex of Unrestrained Cats_, D. H. Hubel](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1357023/pdf/jphysiol01301-0020.pdf)
+- [_ImageNet Classification with Deep Convolutional Neural Networks_, Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
+- [_Gradient-Based Learning Applied to Document Recognition_, Yann LeCun, Léon Bottou, Yoshua Bengio, Patrick Haffner](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
+- [_Is object localization for free? – Weakly-supervised learning with convolutional neural network_, Maxime Oquab, Léon Bottou, Ivan Laptev, Josef Sivic](https://leon.bottou.org/publications/pdf/cvpr-2015.pdf)
+- [_Fully Convolutional Networks for Semantic Segmentation_, Evan Shelhamer, Jonathan Long, Trevor Darrell](https://arxiv.org/pdf/1605.06211v1.pdf)
+- [_Very Deep Convolutional Networks for Large-Scale Image Recognition_, Karen Simonyan, Andrew Zisserman](https://arxiv.org/pdf/1409.1556.pdf)
+- [_End-to-end people detection in crowded scenes_, Russell Stewart, Mykhaylo Andriluka](https://arxiv.org/pdf/1506.04878.pdf)
+- [_Going Deeper with Convolutions_, Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir Anguelov, Dumitru Erhan, Vincent Vanhoucke, Andrew Rabinovich](http://www.cs.unc.edu/~wliu/papers/GoogLeNet.pdf)
+
 ### Dimensionality Reduction
 
 - [_Kernel Principal Component Analysis_, Bernhard Schölkopf, Alexander Smola , Klaus-Robert Müller](http://pca.narod.ru/scholkopf_kernel.pdf)
 
 ### Distributing TensorFlow
-
-### TensorFlow
 
 - [_TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems_, Martin Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo, Zhifeng Chen, Craig Citro, Greg S. Corrado, Andy Davis, Jeffrey Dean, Matthieu Devin, Sanjay Ghemawat, Ian Goodfellow, Andrew Harp, Geoffrey Irving, Michael Isard, Yangqing Jia, Rafal Jozefowicz, Lukasz Kaiser, Manjunath Kudlur, Josh Levenberg, Dan Mane, Rajat Monga, Sherry Moore, Derek Murray, ´ Chris Olah, Mike Schuster, Jonathon Shlens, Benoit Steiner, Ilya Sutskever, Kunal Talwar, Paul Tucker, Vincent Vanhoucke, Vijay Vasudevan, Fernanda Viegas, Oriol Vinyals, ´ Pete Warden, Martin Wattenberg, Martin Wicke, Yuan Yu, Xiaoqiang Zheng](http://download.tensorflow.org/paper/whitepaper2015.pdf)
 - [_Revisting Distributed Synchronous SGD_, Jianmin Chen, Rajat Monga, Samy Bengio, Rafal Jozefowicz](https://arxiv.org/pdf/1604.00981v2.pdf)
