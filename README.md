@@ -361,6 +361,15 @@ MNIST dataset.
 - VGGNet and Inception-v4.
 - Convolution operations with TensorFlow.
 
+#### `DeepDream.ipynb`
+
+- Displaying a model graph from TensorBoard inline in Colab.
+- Naive feature map visualization.
+- Improving the visualization using gradient ascent.
+- Laplacian Pyramid Gradient Normalization.
+- Visualizing different feature maps in the Inception model.
+- Google's DeepDream algorithm.
+
 ## Papers Cited
 
 ### Artificial Neural Networks
