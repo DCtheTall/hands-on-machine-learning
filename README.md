@@ -388,6 +388,45 @@ task.
 - Implementing an augmented version of LeNet-5 using TensorFlow.
 - Training a CNN to classify the MNIST dataset with over 99% accuracy.
 
+### Chapter 14: Recurrent Neural Networks
+
+#### `RecurrentNeuralNetworks.ipynb`
+
+- Recurrent neural networks (RNNs).
+- Recurrent neurons.
+- Implementing recurrent neurons in TensorFlow.
+- Static unrolling through time with TensorFlow.
+- Dynamic unrolling through time with TensorFlow's `BasicRNNCell`.
+- Handling variable input sequence lengths in TensorFlow.
+- Handling variable output sequence lengths.
+- Backpropagation through time (BPTT).
+- Training a sequence classifier with TensorFlow.
+- Training a model to predict time series.
+- Generating new sequences with creative RNNs.
+- Deep RNNs and TensorFlow's `MultiRNNCell`.
+- Creating a deep RNN across devices.
+- Applying dropout while training an RNN.
+- The difficulty of training RNNs for long sequences.
+- Truncated backpropagation through time.
+- Long Short-Term Memory (LSTM) cell.
+- TensorFlow's `BasicLSTMCell`.
+- Peephole connections.
+- Gated Recurrent Unit (GRU) cell.
+- TensorFlow's `GRUCell`.
+- Natural language processing (NLP).
+- Word embeddings.
+- Computing embeddings using TensorFlow.
+- Defining a model graph for sequence-to-sequence machine translation using
+TensorFlow.
+
+#### `Exercises.ipynb`
+
+- Embedded Reber grammars.
+- Training a model to classify if a sequence is a Reber grammar using
+TensorFlow.
+- Training a model for the "How Much Did it Rain II" Kaggle competition.
+- Developing a Spanish-to-English translation system using TensorFlow.
+
 ## Papers Cited
 
 ### Artificial Neural Networks
@@ -426,6 +465,15 @@ task.
 - [_A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting_, Yoav Freund, Robert E. Schapire](https://www.sciencedirect.com/science/article/pii/S002200009791504X)
 - [_Extremely randomized trees_, Pierre Geurts, Damien Ernst, Louis Wehenkel](https://orbi.uliege.be/bitstream/2268/9357/1/geurts-mlj-advance.pdf)
 - [_Multi-class AdaBoost_, Ji Zhu, Saharon Rosset, Hui Zou, Trevor Hastie](https://web.stanford.edu/~hastie/Papers/samme.pdf)
+
+### Recurrent Neural Networks
+
+- [_Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation_, Kyunghyun Cho, Bart van Merrienboer, Caglar Gulcehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, Yoshua Bengio](https://arxiv.org/pdf/1406.1078v3.pdf)
+- [_Recurrent nets that time and count_, F. A. Gers, J. Schmidhuber](https://ieeexplore.ieee.org/document/861302)
+- [_Long Short-Term Memory_, Sepp Hochreiter, Jürgen Schmidhuber](https://www.mitpressjournals.org/doi/abs/10.1162/neco.1997.9.8.1735#.WIxuWvErJnw)
+- [_Long Short-Term Memory Based Recurrent Neural Network Architectures for Large Vocabulary Speech Recognition_, Hasim Sak, Andrew Senior, Françoise Beaufays](https://arxiv.org/pdf/1402.1128.pdf)
+- [_Show and Tell: A Neural Image Caption Generator_, Oriol Vinyals, Alexander Toshev, Samy Bengio, Dumitru Erhan](https://arxiv.org/pdf/1411.4555v2.pdf)
+- [_Recurrent Neural Network Regularization_, Wojciech Zaremba, Ilya Sutskever, Oriol Vinyals](https://arxiv.org/pdf/1409.2329v5.pdf)
 
 ### Support Vector Machines
 
