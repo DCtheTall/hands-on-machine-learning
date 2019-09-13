@@ -436,7 +436,7 @@ task.
 
 ### Training Neural Networks
 
-- [Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)_, Djork-Arne Clevert, Thomas Unterthiner, Sepp Hochreiter](https://arxiv.org/pdf/1511.07289v5.pdf)
+- [_Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)_, Djork-Arne Clevert, Thomas Unterthiner, Sepp Hochreiter](https://arxiv.org/pdf/1511.07289v5.pdf)
 - [_Adaptive Subgradient Methods for Online Learning and Stochastic Optimization_, John Duchi, Elad Hazan, Yoram Singer](http://www.jmlr.org/papers/volume12/duchi11a/duchi11a.pdf)
 - [_Understanding the difficulty of training deep feedforward neural networks_, Xavier Glorot, Yoshua Bengio](http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf)
 - [_Improving neural networks by preventing co-adaptation of feature detectors_, G. E. Hinton, N. Srivastava, A. Krizhevsky, I. Sutskever and R. R. Salakhutdinov](https://arxiv.org/pdf/1207.0580.pdf)
