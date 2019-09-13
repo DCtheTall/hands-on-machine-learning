@@ -468,6 +468,49 @@ classification.
 - Training a convolutional variational autoencoder (CVAE) to generate new
 instances of the Oxford Flowers dataset.
 
+### Chapter 16: Reinforcement Learning
+
+#### `ReinforcementLearning.ipynb`
+
+- Reinforcement learning.
+- Policy and policy search.
+- Genetic algorithms.
+- Policy gradients.
+- OpenAI Gym.
+- Ms. Pacman OpenAI Gym environment.
+- CartPole OpenAI Gym environment.
+- Hard coding a policy.
+- Neural network policies with TensorFlow.
+- Training a neural network to learn a hard-coded policy.
+- The credit assignment problem.
+- REINFORCE algorithms.
+- Training a neural network agent for the CartPole environment using policy
+gradients.
+- Markov chains.
+- Markov decision processes (MDPs).
+- Bellman Optimality Equation.
+- Value Iteration algorithm.
+- Q-Values.
+- Temporal Difference Learning (TD Learning).
+- Approximate Q-Learning and Deep Q-Learning.
+- Deep Q-networks (DQNs).
+- Replay memory.
+- Preprocessing observations from the Breakout OpenAI Gym environment.
+
+#### `MsPacMan.ipynb`
+- The Ms. Pacman OpenAI Gym environment.
+- Preprocessing the observations from the Ms. Pacman environment.
+- Training a DQN to play Ms. Pacman.
+
+#### `Exercises.ipynb`
+
+- The BipedalWalker Open AI Gym environment.
+- Training a neural network policy for the BipedalWalker environment using
+policy gradients.
+- The Pong Open AI Gym environment.
+- Preprocessing the Pong environment for training a DQN.
+- Training a DQN to play Pong.
+
 ## Papers Cited
 
 ### Artificial Neural Networks
@@ -529,6 +572,13 @@ instances of the Oxford Flowers dataset.
 - [_Long Short-Term Memory Based Recurrent Neural Network Architectures for Large Vocabulary Speech Recognition_, Hasim Sak, Andrew Senior, Françoise Beaufays](https://arxiv.org/pdf/1402.1128.pdf)
 - [_Show and Tell: A Neural Image Caption Generator_, Oriol Vinyals, Alexander Toshev, Samy Bengio, Dumitru Erhan](https://arxiv.org/pdf/1411.4555v2.pdf)
 - [_Recurrent Neural Network Regularization_, Wojciech Zaremba, Ilya Sutskever, Oriol Vinyals](https://arxiv.org/pdf/1409.2329v5.pdf)
+
+### Reinforcement Learning
+
+- [_A Markovian Decision Process_, Richard Bellman](https://goo.gl/wZTVIN)
+- [_Human-level control through deep reinforcement learning_, Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Andrei A. Rusu, Joel Veness, Marc G. Bellemare, Alex Graves, Martin Riedmiller, Andreas K. Fidjeland, Georg Ostrovski, Stig Petersen, Charles Beattie, Amir Sadik, Ioannis Antonoglou, Helen King, Dharshan Kumaran, Daan Wierstra, Shane Legg, Demis Hassabis](https://storage.googleapis.com/deepmind-data/assets/papers/DeepMindNature14236Paper.pdf)
+- [_Playing Atari with Deep Reinforcement Learning_, Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis Antonoglou, Daan Wierstra, Martin Riedmiller](https://arxiv.org/pdf/1312.5602v1.pdf)
+- [_Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning_, Ronald J. Williams](http://www-anw.cs.umass.edu/~barto/courses/cs687/williams92simple.pdf)
 
 ### Support Vector Machines
 
