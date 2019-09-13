@@ -370,6 +370,24 @@ MNIST dataset.
 - Visualizing different feature maps in the Inception model.
 - Google's DeepDream algorithm.
 
+#### `Inception.ipynb`
+
+- Preparing data for the Inception v3 model.
+- Downloading the pretrained Inception v3 model.
+- Defining the Inception v3 model graph with TensorFlow.
+- Restoring the model parameters for a TensorFlow model.
+- Labeling images with the Inception v3 and TensorFlow.
+- Implementing data augmentation for image data using `numpy`.
+- Creating a model graph with pretrained lower layers from the Inception v3
+model.
+- Training the higher layers of the new model for a different classification
+task.
+
+#### `MNIST.ipynb`
+
+- Implementing an augmented version of LeNet-5 using TensorFlow.
+- Training a CNN to classify the MNIST dataset with over 99% accuracy.
+
 ## Papers Cited
 
 ### Artificial Neural Networks
@@ -397,7 +415,7 @@ MNIST dataset.
 
 ### Distributing TensorFlow
 
-- [_TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems_, Martin Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo, Zhifeng Chen, Craig Citro, Greg S. Corrado, Andy Davis, Jeffrey Dean, Matthieu Devin, Sanjay Ghemawat, Ian Goodfellow, Andrew Harp, Geoffrey Irving, Michael Isard, Yangqing Jia, Rafal Jozefowicz, Lukasz Kaiser, Manjunath Kudlur, Josh Levenberg, Dan Mane, Rajat Monga, Sherry Moore, Derek Murray, ´ Chris Olah, Mike Schuster, Jonathon Shlens, Benoit Steiner, Ilya Sutskever, Kunal Talwar, Paul Tucker, Vincent Vanhoucke, Vijay Vasudevan, Fernanda Viegas, Oriol Vinyals, ´ Pete Warden, Martin Wattenberg, Martin Wicke, Yuan Yu, Xiaoqiang Zheng](http://download.tensorflow.org/paper/whitepaper2015.pdf)
+- [_TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems_, Martin Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo, Zhifeng Chen, Craig Citro, Greg S. Corrado, Andy Davis, Jeffrey Dean, Matthieu Devin, Sanjay Ghemawat, Ian Goodfellow, Andrew Harp, Geoffrey Irving, Michael Isard, Yangqing Jia, Rafal Jozefowicz, Lukasz Kaiser, Manjunath Kudlur, Josh Levenberg, Dan Mane, Rajat Monga, Sherry Moore, Derek Murray, Chris Olah, Mike Schuster, Jonathon Shlens, Benoit Steiner, Ilya Sutskever, Kunal Talwar, Paul Tucker, Vincent Vanhoucke, Vijay Vasudevan, Fernanda Viegas, Oriol Vinyals, Pete Warden, Martin Wattenberg, Martin Wicke, Yuan Yu, Xiaoqiang Zheng](http://download.tensorflow.org/paper/whitepaper2015.pdf)
 - [_Revisting Distributed Synchronous SGD_, Jianmin Chen, Rajat Monga, Samy Bengio, Rafal Jozefowicz](https://arxiv.org/pdf/1604.00981v2.pdf)
 
 ### Ensemble Learning
