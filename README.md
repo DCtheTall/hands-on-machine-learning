@@ -427,6 +427,47 @@ TensorFlow.
 - Training a model for the "How Much Did it Rain II" Kaggle competition.
 - Developing a Spanish-to-English translation system using TensorFlow.
 
+### Chapter 15: Autoencoders
+
+#### `Autoencoders.ipynb`
+
+- Autoencoders.
+- Codings.
+- Undercomplete autoencoders.
+- Performing PCA with a undercomplete linear autoencoder using TensorFlow.
+- Stacked autoencoders.
+- Training a stacked autoencoder with TensorFlow.
+- Tying weights.
+- Training one autoencoder at a time in multiple TensorFlow graphs.
+- Training one autoencoder at a time in a single TensorFlow graph.
+- Caching outputs from the frozen layer to speed up training.
+- Visualizing the reconstructions.
+- Visualizing the extracted features.
+- Unsupervised pretraining using an autoencoder for a classification task.
+- Stacked denoising autoencoders.
+- Sparse autoencoders.
+- Kullback-Leibler divergence.
+- Variational autoencoders.
+- Latent loss.
+- Implementing a variational autoencoder using TensorFlow.
+- Contractive autoencoders.
+- Stacked convolutional autoencoders.
+- Generative stochastic networks (GSNs).
+- Winner-take-all (WTA) autoencoders.
+- Generative adversarial networks (GANs).
+
+#### `Exercises.ipynb`
+
+- Pretraining with a convolutional autoencoder to train an image classification
+model using TensorFlow.
+- Semantic hashing.
+- Implementing an autoencoder to compute semantic hashes of images using
+TensorFlow.
+- Training a semantic hashing model by pretraining a CNN for image
+classification.
+- Training a convolutional variational autoencoder (CVAE) to generate new
+instances of the Oxford Flowers dataset.
+
 ## Papers Cited
 
 ### Artificial Neural Networks
@@ -434,6 +475,20 @@ TensorFlow.
 - [_Random Search for Hyper-Parameter Optimization_, James Bergstra, Yoshua Bengio](http://www.jmlr.org/papers/volume13/bergstra12a/bergstra12a.pdf)
 - [_A logical calculus of the ideas immanent in nervous activity_, Warren S. McCullochWalter Pitts](https://link.springer.com/article/10.1007/BF02478259)
 - [_Learning Internal Representations by Error Propagation_, David E. Rumelhart, Geoffrey E. Hinton, Ronald J. Williams](https://apps.dtic.mil/docs/citations/ADA164453)
+
+### Autoencoders
+
+- [_GSNs: Generative Stochastic Networks_, Guillaume Alain, Yoshua Bengio, Li Yao, Jason Yosinski, Eric Thibodeau-Laufer, Saizheng Zhang, Pascal Vincent](https://arxiv.org/pdf/1503.05571v2.pdf)
+- [_Tutorial on Variational Autoencoders_, Carl Doersch](https://arxiv.org/pdf/1606.05908.pdf)
+- [_Generative Adversarial Networks_, Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio](https://arxiv.org/abs/1406.2661)
+- [_CNN Based Hashing for Image Retrieval_, Jinma Guo, Jianmin Li](https://arxiv.org/pdf/1509.01354.pdf)
+- [_Auto-Encoding Variational Bayes_, Diederik P. Kingma, Max Welling](https://arxiv.org/pdf/1312.6114v10.pdf)
+- [_Winner-Take-All Autoencoders_, Alireza Makhzani, Brendan Frey](https://arxiv.org/pdf/1409.2752v2.pdf)
+- [_Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction_, Jonathan Masci, Ueli Meier, Dan Cire¸san, Jürgen Schmidhuber](http://people.idsia.ch/~ciresan/data/icann2011.pdf)
+- [_Contractive Auto-Encoders: Explicit Invariance During Feature Extraction_, Salah Rifai, Pascal Vincent, Xavier Muller, Xavier Glorot, Yoshua Bengio](http://www.icml-2011.org/papers/455_icmlpaper.pdf)
+- [_Semantic hashing_, Ruslan Salakhutdinov, Geoffrey Hinton](http://www.cs.toronto.edu/~rsalakhu/papers/sdarticle.pdf)
+- [_Extracting and Composing Robust Features with Denoising Autoencoders_, Pascal Vincent, Hugo Larochelle, Yoshua Bengio, Pierre-Antoine Manzagol](https://www.iro.umontreal.ca/~vincentp/Publications/denoising_autoencoders_tr1316.pdf)
+- [_Stacked Denoising Autoencoders: Learning Useful Representations in a Deep Network with a Local Denoising Criterion_, Pascal Vincent, Hugo Larochelle, Isabelle Lajoie, Yoshua Bengio, Pierre-Antoine Manzagol](http://jmlr.csail.mit.edu/papers/volume11/vincent10a/vincent10a.pdf)
 
 ### Convolutional Neural Networks
 
