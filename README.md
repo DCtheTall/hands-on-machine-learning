@@ -603,3 +603,5 @@ policy gradients.
 - [_Dropout: A Simple Way to Prevent Neural Networks from Overfitting_, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, Ruslan Salakhutdinov](http://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf)
 
 ## License
+
+This code is released under an Apache 2.0 Licence. Please see `LICENSE` for more information.
