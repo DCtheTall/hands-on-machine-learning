@@ -18,7 +18,7 @@ mathematical formuals are rendered in Colab than in Github's `ipynb` renderer.
 ## Table of Contents
 
 1. [Topics Covered](#topics-covered)
-2. [Academic Papers Cited](#academic-papers-cited)
+2. [Papers Cited](#papers-cited)
 3. [License](#license)
 
 ## Topics Covered
