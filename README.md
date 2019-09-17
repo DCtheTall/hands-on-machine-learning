@@ -470,6 +470,8 @@ instances of the Oxford Flowers dataset.
 
 ### Chapter 16: Reinforcement Learning
 
+For this chapter, I highly recommend opening these notebooks in Colab. Github does not render the `<video>` tags in these notebooks which show the agents playing the Open AI Gym games.
+
 #### `ReinforcementLearning.ipynb`
 
 - Reinforcement learning.
